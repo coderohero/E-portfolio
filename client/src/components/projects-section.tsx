@@ -78,30 +78,14 @@ export default function ProjectsSection() {
           </div>
 
           {/* Quick Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 bg-card/50 backdrop-blur-sm border border-border rounded-2xl p-8">
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2" data-testid="stat-projects">
-                {projects.length}+
+          <div className="flex justify-center">
+            <div className="bg-card/50 backdrop-blur-sm border border-border rounded-2xl p-8">
+              <div className="text-center">
+                <div className="text-3xl font-bold text-primary mb-2" data-testid="stat-projects">
+                  {projects.length}+
+                </div>
+                <div className="text-sm text-muted-foreground">Featured Projects</div>
               </div>
-              <div className="text-sm text-muted-foreground">Featured Projects</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-accent mb-2" data-testid="stat-technologies">
-                25+
-              </div>
-              <div className="text-sm text-muted-foreground">Technologies Used</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2" data-testid="stat-users">
-                100K+
-              </div>
-              <div className="text-sm text-muted-foreground">Users Impacted</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-accent mb-2" data-testid="stat-awards">
-                8
-              </div>
-              <div className="text-sm text-muted-foreground">Awards & Recognition</div>
             </div>
           </div>
         </div>
