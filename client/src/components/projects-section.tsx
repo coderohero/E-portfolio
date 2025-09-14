@@ -11,7 +11,7 @@ export default function ProjectsSection() {
         { src: "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400", alt: "Chat Interface" }
       ],
       technologies: ["JavaScript", "React", "Node.js", "Telegram API", "Express", "Bootstrap"],
-      demoUrl: "#",
+      demoUrl: undefined,
       codeUrl: "https://github.com/Harsha41-dev/Create-own-telegram-bot",
       featured: true,
       stats: [
@@ -30,7 +30,7 @@ export default function ProjectsSection() {
         { src: "https://images.unsplash.com/photo-1509048191080-d2e2bb6a3e1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400", alt: "Data Structures" }
       ],
       technologies: ["JavaScript", "React JS", "HTML5", "CSS3", "Algorithms", "Algorithm Analysis", "Data Visualization"],
-      demoUrl: "#",
+      demoUrl: undefined,
       codeUrl: "https://github.com/Harsha41-dev/algo-sorting-visualizer",
       stats: [
         { label: "Algorithms", value: "8+" },
