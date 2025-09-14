@@ -165,7 +165,7 @@ export default function ProjectCard3D({
 
         {/* Back Side */}
         <div className="absolute inset-0 w-full h-full backface-hidden rotate-y-180">
-          <div className="w-full h-full bg-card border border-border rounded-xl overflow-hidden shadow-lg p-6 flex flex-col">
+          <div className="w-full h-full bg-card border border-border rounded-xl overflow-hidden shadow-lg p-6 flex flex-col min-h-0">
             <div className="flex items-center justify-between mb-4">
               <h3 className="text-xl font-semibold" data-testid="project-title-back">
                 {title}
@@ -220,14 +220,14 @@ export default function ProjectCard3D({
             </div>
             
             {/* Action buttons */}
-            <div className="flex space-x-3">
+            <div className="flex space-x-3 mt-auto">
               {demoUrl && (
                 <Button 
                   asChild
-                  className="flex-1 bg-primary hover:bg-primary/90"
+                  className="flex-1 bg-primary hover:bg-primary/90 text-primary-foreground"
                   data-testid="demo-link"
                 >
-                  <a href={demoUrl} target="_blank" rel="noopener noreferrer">
+                  <a href={demoUrl} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
                     <i className="fas fa-external-link-alt mr-2"></i>
                     Live Demo
                   </a>
@@ -237,12 +237,12 @@ export default function ProjectCard3D({
                 <Button 
                   asChild
                   variant="outline"
-                  className="flex-1"
+                  className="flex-1 border-primary/30 text-foreground hover:bg-primary/10 hover:border-primary/50"
                   data-testid="code-link"
                 >
-                  <a href={codeUrl} target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-github mr-2"></i>
-                    Code
+                  <a href={codeUrl} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
+                    <i className="fab fa-github mr-2 text-lg"></i>
+                    View on GitHub
                   </a>
                 </Button>
               )}
