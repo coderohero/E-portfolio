@@ -44,19 +44,6 @@ export default function AchievementsSection() {
       links: []
     },
     {
-      id: "eamcet-achievements-2022",
-      date: "2023",
-      title: "EAMCET State Rankings",
-      organization: "State Engineering Entrance Exams",
-      description: "Secured excellent ranks in both AP EAMCET (2333) and TS EAMCET (2555) examinations.",
-      details: "Achieved top rankings in both Andhra Pradesh and Telangana state engineering entrance examinations, demonstrating consistent performance across multiple competitive exams and strong preparation in core subjects.",
-      icon: "fas fa-medal",
-      category: "education" as const,
-      skills: ["Mathematics", "Physics", "Chemistry", "Exam Strategy", "Consistency"],
-      impact: "• AP EAMCET Rank: 2333\n• TS EAMCET Rank: 2555\n• Consistent performance across exams\n• Multiple admission opportunities",
-      links: []
-    },
-    {
       id: "iiit-admission-2022",
       date: "August 2023",
       title: "Admission to IIIT Sricity",
@@ -70,6 +57,19 @@ export default function AchievementsSection() {
       links: [
         { label: "IIIT Sricity", url: "https://www.iiits.ac.in/" }
       ]
+    },
+    {
+      id: "eamcet-achievements-2022",
+      date: "2023",
+      title: "EAMCET State Rankings",
+      organization: "State Engineering Entrance Exams",
+      description: "Secured excellent ranks in both AP EAMCET (2333) and TS EAMCET (2555) examinations.",
+      details: "Achieved top rankings in both Andhra Pradesh and Telangana state engineering entrance examinations, demonstrating consistent performance across multiple competitive exams and strong preparation in core subjects.",
+      icon: "fas fa-medal",
+      category: "education" as const,
+      skills: ["Mathematics", "Physics", "Chemistry", "Exam Strategy", "Consistency"],
+      impact: "• AP EAMCET Rank: 2333\n• TS EAMCET Rank: 2555\n• Consistent performance across exams\n• Multiple admission opportunities",
+      links: []
     }
   ];
 
