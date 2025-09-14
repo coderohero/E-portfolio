@@ -32,7 +32,7 @@ export default function AchievementsSection() {
     },
     {
       id: "jee-achievement-2022",
-      date: "2022",
+      date: "2023",
       title: "JEE Mains Achievement",
       organization: "National Testing Agency",
       description: "Achieved All India Rank 24576 (CRL) in JEE Mains, securing admission to IIIT Sricity.",
