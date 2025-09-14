@@ -17,11 +17,11 @@ export default function Navigation() {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div 
-            className="text-xl font-bold gradient-text cursor-pointer"
+            className="text-xl font-bold gradient-text cursor-pointer shimmer"
             onClick={() => scrollToSection("home")}
             data-testid="logo"
           >
-            Alex Morgan
+            Jordan Rivera
           </div>
           
           <div className="hidden md:flex space-x-6">
