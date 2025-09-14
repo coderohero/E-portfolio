@@ -45,7 +45,7 @@ export default function AchievementsSection() {
     },
     {
       id: "eamcet-achievements-2022",
-      date: "2022",
+      date: "2023",
       title: "EAMCET State Rankings",
       organization: "State Engineering Entrance Exams",
       description: "Secured excellent ranks in both AP EAMCET (2333) and TS EAMCET (2555) examinations.",
@@ -58,7 +58,7 @@ export default function AchievementsSection() {
     },
     {
       id: "iiit-admission-2022",
-      date: "August 2022",
+      date: "August 2023",
       title: "Admission to IIIT Sricity",
       organization: "IIIT Sricity",
       description: "Started BTech journey at IIIT Sricity, focusing on Computer Science and competitive programming.",
