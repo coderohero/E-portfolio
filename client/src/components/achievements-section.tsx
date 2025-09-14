@@ -95,28 +95,22 @@ export default function AchievementsSection() {
           <InteractiveTimeline events={timelineEvents} />
 
           {/* Summary Stats */}
-          <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-6 bg-card/50 backdrop-blur-sm border border-border rounded-2xl p-8">
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2" data-testid="stat-awards">
-                5
-              </div>
-              <div className="text-sm text-muted-foreground">Key Achievements</div>
-            </div>
+          <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-6 bg-card/50 backdrop-blur-sm border border-border rounded-2xl p-8">
             <div className="text-center">
               <div className="text-3xl font-bold text-accent mb-2" data-testid="stat-projects">
-                2
+                13
               </div>
               <div className="text-sm text-muted-foreground">GitHub Projects</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-primary mb-2" data-testid="stat-contributions">
-                25+
+                1
               </div>
               <div className="text-sm text-muted-foreground">Articles Written</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-accent mb-2" data-testid="stat-users">
-                50K+
+                90K+
               </div>
               <div className="text-sm text-muted-foreground">Students Helped</div>
             </div>
