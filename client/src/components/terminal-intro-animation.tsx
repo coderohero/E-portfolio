@@ -10,7 +10,7 @@ export default function TerminalIntroAnimation({ onComplete }: TerminalIntroProp
   const [showCursor, setShowCursor] = useState(true);
 
   const terminalLines = [
-    '> Initializing Jordan Rivera Portfolio...',
+    '> Initializing Ponnuru Saiharsha Portfolio...',
     '> Loading creative modules... ✓',
     '> Connecting to innovation servers... ✓',
     '> Optimizing user experience... ✓',
@@ -62,7 +62,7 @@ export default function TerminalIntroAnimation({ onComplete }: TerminalIntroProp
               <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
               <div className="w-3 h-3 bg-green-500 rounded-full"></div>
             </div>
-            <div className="ml-4 text-gray-400 text-sm">Terminal - Jordan Rivera</div>
+            <div className="ml-4 text-gray-400 text-sm">Terminal - Ponnuru Saiharsha</div>
           </div>
           
           {/* Terminal Content */}

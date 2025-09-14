@@ -34,9 +34,9 @@ const sections = [
 ];
 
 export default function Home() {
-  const [showLoading, setShowLoading] = useState(true);
+  const [showLoading, setShowLoading] = useState(false);
   const [showTerminal, setShowTerminal] = useState(false);
-  const [showMainContent, setShowMainContent] = useState(false);
+  const [showMainContent, setShowMainContent] = useState(true);
 
   const handleLoadingComplete = () => {
     setShowLoading(false);

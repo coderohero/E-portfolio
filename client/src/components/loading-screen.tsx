@@ -14,7 +14,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
     { progress: 40, text: "Preparing 3D visualizations..." },
     { progress: 60, text: "Initializing interactive features..." },
     { progress: 80, text: "Optimizing user experience..." },
-    { progress: 100, text: "Welcome to Jordan's Portfolio!" }
+    { progress: 100, text: "Welcome to Saiharsha's Portfolio!" }
   ];
 
   useEffect(() => {
@@ -67,7 +67,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
             
             {/* Inner pulsing circle */}
             <div className="absolute inset-2 bg-gradient-to-r from-primary to-accent rounded-full animate-pulse flex items-center justify-center">
-              <span className="text-white font-bold text-xl">JR</span>
+              <span className="text-white font-bold text-xl">PS</span>
             </div>
             
             {/* Tech elements */}
@@ -90,10 +90,10 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
 
         {/* Loading Text */}
         <h1 className="text-2xl font-bold mb-2 gradient-text">
-          Jordan Rivera
+          Ponnuru Saiharsha
         </h1>
         <p className="text-muted-foreground mb-8">
-          Full-Stack Developer & Creative Technologist
+          Student | Competitive Programmer & Web Developer
         </p>
 
         {/* Progress Bar */}
