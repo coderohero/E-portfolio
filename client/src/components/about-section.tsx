@@ -13,25 +13,25 @@ export default function AboutSection() {
                 Personal Information
               </h3>
               <p className="text-muted-foreground leading-relaxed" data-testid="text-bio">
-                I'm a creative technologist with 6+ years of experience building innovative digital experiences that merge cutting-edge technology with environmental consciousness. 
-                Based in Austin, Texas, I specialize in interactive web applications, sustainable tech solutions, and immersive user experiences using WebGL and Three.js.
+                I'm a passionate BTech student at IIIT Sricity with a strong focus on competitive programming and web development. 
+                Based in Sricity, Andhra Pradesh, I specialize in algorithm design, problem-solving, and building interactive web applications using modern technologies like React and JavaScript.
               </p>
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
                   <i className="fas fa-map-marker-alt text-primary"></i>
-                  <span data-testid="text-location">Austin, Texas</span>
+                  <span data-testid="text-location">Sricity, Andhra Pradesh, India</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <i className="fas fa-envelope text-primary"></i>
-                  <span data-testid="text-email">jordan.rivera@techstudio.dev</span>
+                  <span data-testid="text-email">ponnurusaiharsha@gmail.com</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <i className="fas fa-phone text-primary"></i>
-                  <span data-testid="text-phone">+1 (512) 847-9362</span>
+                  <i className="fas fa-graduation-cap text-primary"></i>
+                  <span data-testid="text-education">BTech Student at IIIT Sricity</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <i className="fas fa-leaf text-accent"></i>
-                  <span data-testid="text-specialty">Sustainable Tech Advocate</span>
+                  <i className="fas fa-code text-accent"></i>
+                  <span data-testid="text-specialty">Competitive Programming Enthusiast</span>
                 </div>
               </div>
             </div>
@@ -42,31 +42,31 @@ export default function AboutSection() {
               </h3>
               <div className="space-y-6">
                 <div className="border-l-2 border-primary pl-6 pulse-glow">
-                  <h4 className="font-semibold text-lg" data-testid="text-masters-degree">
-                    Master of Interactive Media
+                  <h4 className="font-semibold text-lg" data-testid="text-btech-degree">
+                    Bachelor of Technology (BTech)
                   </h4>
-                  <p className="text-primary" data-testid="text-masters-school">UT Austin</p>
-                  <p className="text-muted-foreground" data-testid="text-masters-years">2017 - 2019</p>
-                  <p className="text-sm text-muted-foreground mt-2" data-testid="text-masters-details">
-                    Focus on Creative Technology, Environmental Design, and Digital Art
+                  <p className="text-primary" data-testid="text-btech-school">IIIT Sricity</p>
+                  <p className="text-muted-foreground" data-testid="text-btech-years">2022 - 2026 (3rd Year)</p>
+                  <p className="text-sm text-muted-foreground mt-2" data-testid="text-btech-details">
+                    Focus on Computer Science, Algorithms, and Software Engineering
                   </p>
                 </div>
                 <div className="border-l-2 border-accent pl-6">
-                  <h4 className="font-semibold text-lg" data-testid="text-bachelors-degree">
-                    Bachelor of Computer Science
+                  <h4 className="font-semibold text-lg" data-testid="text-achievements-header">
+                    Academic Achievements
                   </h4>
-                  <p className="text-accent" data-testid="text-bachelors-school">Texas A&M University</p>
-                  <p className="text-muted-foreground" data-testid="text-bachelors-years">2013 - 2017</p>
-                  <p className="text-sm text-muted-foreground mt-2" data-testid="text-bachelors-details">
-                    Summa Cum Laude, Minor in Environmental Studies
+                  <p className="text-accent" data-testid="text-jee-rank">JEE Mains: 24576 CRL</p>
+                  <p className="text-muted-foreground" data-testid="text-eamcet-ranks">AP EAMCET: 2333, TS EAMCET: 2555</p>
+                  <p className="text-sm text-muted-foreground mt-2" data-testid="text-achievements-details">
+                    Competitive entrance exam rankings for engineering admissions
                   </p>
                 </div>
                 <div className="border-l-2 border-primary/60 pl-6">
-                  <h4 className="font-semibold text-lg" data-testid="text-certification">
-                    AWS Solutions Architect
+                  <h4 className="font-semibold text-lg" data-testid="text-internship">
+                    GeeksforGeeks Intern
                   </h4>
-                  <p className="text-primary/80" data-testid="text-certification-org">Amazon Web Services</p>
-                  <p className="text-muted-foreground" data-testid="text-certification-year">2023 - Present</p>
+                  <p className="text-primary/80" data-testid="text-internship-org">GeeksforGeeks</p>
+                  <p className="text-muted-foreground" data-testid="text-internship-role">Technical Content Writer</p>
                 </div>
               </div>
             </div>

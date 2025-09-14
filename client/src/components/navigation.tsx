@@ -21,7 +21,7 @@ export default function Navigation() {
             onClick={() => scrollToSection("home")}
             data-testid="logo"
           >
-            Jordan Rivera
+            Ponnuru Saiharsha
           </div>
           
           <div className="hidden md:flex space-x-6">

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 export default function HeroSection() {
   const [displayText, setDisplayText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
-  const fullText = "Jordan Rivera";
+  const fullText = "Ponnuru Saiharsha";
   
   useEffect(() => {
     if (currentIndex < fullText.length) {
@@ -48,10 +48,10 @@ export default function HeroSection() {
                 <span className="animate-pulse">|</span>
               </h1>
               <p className="text-xl text-muted-foreground" data-testid="text-subtitle">
-                Creative Technologist & Full-Stack Developer
+                Competitive Programmer & Web Developer
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed max-w-md" data-testid="text-description">
-                Crafting innovative digital experiences that merge cutting-edge technology with sustainable design principles. Specializing in interactive web applications and environmental tech solutions.
+                BTech student at IIIT Sricity passionate about competitive programming and building innovative web applications. Currently working as a Problem Setter at Gradient with expertise in algorithms and modern web technologies.
               </p>
             </div>
             
@@ -76,7 +76,7 @@ export default function HeroSection() {
             
             <div className="flex space-x-6">
               <a 
-                href="https://linkedin.com/in/jordanrivera-dev" 
+                href="https://linkedin.com/in/sai-harsha-p-2685892a4" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110 pulse-glow"
@@ -85,7 +85,7 @@ export default function HeroSection() {
                 <i className="fab fa-linkedin text-2xl"></i>
               </a>
               <a 
-                href="https://github.com/jordanrivera" 
+                href="https://github.com/Harsha41-dev" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110 pulse-glow"
@@ -94,29 +94,20 @@ export default function HeroSection() {
                 <i className="fab fa-github text-2xl"></i>
               </a>
               <a 
-                href="https://twitter.com/jordan_codes" 
+                href="https://github.com/harsha-01408" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110 pulse-glow"
-                data-testid="link-twitter"
+                data-testid="link-github-alt"
               >
-                <i className="fab fa-twitter text-2xl"></i>
+                <i className="fab fa-github text-2xl"></i>
               </a>
               <a 
-                href="mailto:jordan.rivera@techstudio.dev"
+                href="mailto:ponnurusaiharsha@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110 pulse-glow"
                 data-testid="link-email"
               >
                 <i className="fas fa-envelope text-2xl"></i>
-              </a>
-              <a 
-                href="https://dribbble.com/jordanrivera" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-accent transition-all duration-300 hover:scale-110 pulse-glow"
-                data-testid="link-dribbble"
-              >
-                <i className="fab fa-dribbble text-2xl"></i>
               </a>
             </div>
           </div>
@@ -126,7 +117,7 @@ export default function HeroSection() {
               <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-primary/30 pulse-glow">
                 <img 
                   src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=800" 
-                  alt="Jordan Rivera - Creative Technologist Portrait" 
+                  alt="Ponnuru Saiharsha - Competitive Programmer Portrait" 
                   className="w-full h-full object-cover"
                   data-testid="img-profile"
                 />

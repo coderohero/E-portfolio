@@ -3,128 +3,72 @@ import InteractiveTimeline from "@/components/interactive-timeline";
 export default function AchievementsSection() {
   const timelineEvents = [
     {
-      id: "innovation-award-2023",
-      date: "December 2023",
-      title: "Best Innovation Award",
-      organization: "TechFlow Solutions",
-      description: "Recognized for developing an AI-powered optimization tool that improved system performance by 45%.",
-      details: "Led a team of 5 engineers to develop a revolutionary AI optimization system that leveraged machine learning algorithms to analyze and optimize database queries in real-time. The solution was implemented across 15+ enterprise clients, resulting in significant performance improvements and cost savings.",
-      icon: "fas fa-trophy",
-      category: "achievement" as const,
-      skills: ["Machine Learning", "Python", "TensorFlow", "Database Optimization", "Team Leadership"],
-      impact: "• Improved system performance by 45% across all implementations\n• Reduced server costs by $2.3M annually for client base\n• Featured in TechCrunch and received industry recognition",
-      links: [
-        { label: "TechCrunch Article", url: "https://techcrunch.com/innovation-award" },
-        { label: "Case Study", url: "https://techflow.com/case-study" }
-      ]
-    },
-    {
-      id: "aws-certification-2023",
-      date: "August 2023", 
-      title: "AWS Solutions Architect Professional",
-      organization: "Amazon Web Services",
-      description: "Advanced certification in designing distributed systems and enterprise architectures on AWS platform.",
-      details: "Achieved the highest level AWS certification, demonstrating expertise in designing and deploying dynamically scalable, highly available, fault-tolerant, and reliable applications on AWS. This certification validates deep technical skills and experience in cloud architecture design.",
-      icon: "fas fa-certificate",
-      category: "education" as const,
-      skills: ["AWS", "Cloud Architecture", "Microservices", "DevOps", "Security"],
-      impact: "Enabled design and implementation of cloud solutions serving 500K+ users with 99.99% uptime",
-      links: [
-        { label: "Credential Verification", url: "https://aws.amazon.com/verification" }
-      ]
-    },
-    {
-      id: "sf-hackathon-2023",
-      date: "May 2023",
-      title: "SF Tech Week Hackathon Winner",
-      organization: "SF Tech Week",
-      description: "First place for developing 'GreenPath' - a sustainability-focused mobile application in 48 hours.",
-      details: "Led a team to create GreenPath, an AI-powered app that helps users reduce their carbon footprint through personalized recommendations. The app uses machine learning to analyze user behavior and suggests eco-friendly alternatives for daily activities.",
-      icon: "fas fa-medal",
-      category: "achievement" as const,
-      skills: ["React Native", "Node.js", "AI/ML", "Rapid Prototyping", "Team Leadership"],
-      impact: "• $50K prize money\n• Featured in 5+ tech publications\n• 10K+ downloads in beta phase\n• Interest from 3 major VCs",
-      links: [
-        { label: "Project Demo", url: "https://greenpath-app.com" },
-        { label: "GitHub Repository", url: "https://github.com/jordanrivera/greenpath" }
-      ]
-    },
-    {
-      id: "ecotrack-launch-2023",
-      date: "March 2023",
-      title: "EcoTrack Product Launch",
-      organization: "Independent Project",
-      description: "Successfully launched EcoTrack, serving 15K+ users tracking 2.3M lbs of CO₂.",
-      details: "Single-handedly designed and developed EcoTrack from concept to production. The platform combines cutting-edge WebGL visualizations with real-time environmental data to create an engaging carbon footprint tracking experience.",
-      icon: "fas fa-rocket",
-      category: "project" as const,
-      skills: ["Three.js", "Next.js", "TypeScript", "D3.js", "AWS", "Product Management"],
-      impact: "• 15K+ active users\n• 2.3M lbs CO₂ tracked and reduced\n• 120+ companies using the platform\n• 4.8/5 user satisfaction rating",
-      links: [
-        { label: "Live Platform", url: "https://ecotrack-demo.vercel.app" },
-        { label: "Technical Blog", url: "https://jordanrivera.dev/ecotrack-technical-deep-dive" }
-      ]
-    },
-    {
-      id: "neural-garden-2022",
-      date: "September 2022",
-      title: "Neural Garden Exhibition",
-      organization: "Austin Contemporary Art Museum",
-      description: "AI art installation featured in museum with 50K+ visitors experiencing the interactive display.",
-      details: "Created an immersive AI-powered art installation that generates evolving plant-like visualizations based on real-time environmental data. The installation uses computer vision and machine learning to create unique art pieces that respond to visitor movement and environmental changes.",
-      icon: "fas fa-palette",
-      category: "project" as const,
-      skills: ["TensorFlow.js", "WebGL", "Computer Vision", "Arduino", "Creative Coding"],
-      impact: "• 50K+ museum visitors\n• Featured in Artforum and Wired magazines\n• Acquired by private collector for permanent installation",
-      links: [
-        { label: "Museum Page", url: "https://austinmuseum.org/neural-garden" },
-        { label: "Artist Statement", url: "https://jordanrivera.dev/neural-garden" }
-      ]
-    },
-    {
-      id: "team-leadership-2021",
-      date: "November 2021",
-      title: "Outstanding Team Leadership Award",
-      organization: "Digital Innovations Inc.",
-      description: "Led cross-functional team of 12 members to deliver enterprise project 20% ahead of schedule.",
-      details: "Managed a complex enterprise migration project involving frontend redesign, backend modernization, and DevOps improvements. Successfully coordinated between design, development, QA, and stakeholder teams while maintaining high code quality standards.",
-      icon: "fas fa-users",
+      id: "problem-setter-2024",
+      date: "2024 - Present",
+      title: "Problem Setter at Gradient",
+      organization: "Gradient",
+      description: "Currently working as a Problem Setter, designing challenging algorithmic problems and test cases for competitive programming contests.",
+      details: "Responsible for creating high-quality competitive programming problems with optimal solutions and comprehensive test cases. Focus on designing problems that test algorithmic thinking, data structures knowledge, and problem-solving skills at various difficulty levels.",
+      icon: "fas fa-code",
       category: "work" as const,
-      skills: ["Team Leadership", "Project Management", "Agile", "Cross-functional Collaboration"],
-      impact: "• Project delivered 6 weeks early\n• 40% improvement in team productivity\n• Zero critical bugs in production\n• $500K cost savings for the company",
+      skills: ["Algorithm Design", "Problem Setting", "Competitive Programming", "C++", "Python"],
+      impact: "• Designed 15+ problems for various contests\n• Problems solved by 1000+ programmers\n• Maintains optimal difficulty progression\n• Focus on educational value and fair testing",
+      links: []
+    },
+    {
+      id: "gfg-internship-2023",
+      date: "2023 - 2024",
+      title: "Technical Content Writer Internship",
+      organization: "GeeksforGeeks (GFG)",
+      description: "Worked as a Technical Content Writer, creating educational articles on algorithms, data structures, and programming concepts.",
+      details: "Authored comprehensive technical articles covering competitive programming topics, algorithm explanations, and coding interview preparation materials. Contributed to the educational content that helps thousands of students learn programming effectively.",
+      icon: "fas fa-pen",
+      category: "work" as const,
+      skills: ["Technical Writing", "Algorithms", "Data Structures", "Java", "Python", "Content Creation"],
+      impact: "• Authored 25+ technical articles\n• Articles viewed by 50K+ students\n• Covered advanced algorithms and data structures\n• Recognized for quality content and clarity",
       links: [
-        { label: "Company Blog", url: "https://digitalinnovations.com/team-excellence" }
+        { label: "GeeksforGeeks Profile", url: "https://www.geeksforgeeks.org/" }
       ]
     },
     {
-      id: "opensource-milestone-2021",
-      date: "June 2021",
-      title: "Open Source Milestone",
-      organization: "React & Vue Communities",
-      description: "Achieved 1K+ GitHub stars across open source projects and became core contributor to major libraries.",
-      details: "Developed and maintained several popular open source libraries including react-three-fiber extensions and vue-sustainability-toolkit. Regular contributor to React Three Fiber, with multiple merged PRs improving performance and developer experience.",
-      icon: "fas fa-star",
-      category: "achievement" as const,
-      skills: ["React", "Vue.js", "Three.js", "Open Source", "Community Building"],
-      impact: "• 1.2K GitHub stars across projects\n• 50K+ weekly downloads\n• 200+ contributors engaged\n• Adopted by companies like Netflix and Spotify",
-      links: [
-        { label: "GitHub Profile", url: "https://github.com/jordanrivera" },
-        { label: "NPM Packages", url: "https://npmjs.com/~jordanrivera" }
-      ]
+      id: "jee-achievement-2022",
+      date: "2022",
+      title: "JEE Mains Achievement",
+      organization: "National Testing Agency",
+      description: "Achieved All India Rank 24576 (CRL) in JEE Mains, securing admission to IIIT Sricity.",
+      details: "Successfully cleared the Joint Entrance Examination (JEE) Mains with a competitive ranking, demonstrating strong problem-solving skills and mathematical aptitude. This achievement opened doors to pursuing BTech in Computer Science at IIIT Sricity.",
+      icon: "fas fa-trophy",
+      category: "education" as const,
+      skills: ["Mathematics", "Physics", "Chemistry", "Problem Solving", "Analytical Thinking"],
+      impact: "• All India Rank: 24576 (CRL)\n• Qualified for premium engineering institutions\n• Strong foundation in STEM subjects\n• Gateway to BTech in Computer Science",
+      links: []
     },
     {
-      id: "masters-graduation-2019",
-      date: "May 2019",
-      title: "Master of Interactive Media",
-      organization: "UT Austin",
-      description: "Graduated with highest honors, focusing on Creative Technology and Environmental Design.",
-      details: "Completed advanced coursework in creative technology, environmental design, and digital art. Master's thesis explored the intersection of technology and environmental consciousness, laying the foundation for future sustainability-focused projects.",
+      id: "eamcet-achievements-2022",
+      date: "2022",
+      title: "EAMCET State Rankings",
+      organization: "State Engineering Entrance Exams",
+      description: "Secured excellent ranks in both AP EAMCET (2333) and TS EAMCET (2555) examinations.",
+      details: "Achieved top rankings in both Andhra Pradesh and Telangana state engineering entrance examinations, demonstrating consistent performance across multiple competitive exams and strong preparation in core subjects.",
+      icon: "fas fa-medal",
+      category: "education" as const,
+      skills: ["Mathematics", "Physics", "Chemistry", "Exam Strategy", "Consistency"],
+      impact: "• AP EAMCET Rank: 2333\n• TS EAMCET Rank: 2555\n• Consistent performance across exams\n• Multiple admission opportunities",
+      links: []
+    },
+    {
+      id: "iiit-admission-2022",
+      date: "August 2022",
+      title: "Admission to IIIT Sricity",
+      organization: "IIIT Sricity",
+      description: "Started BTech journey at IIIT Sricity, focusing on Computer Science and competitive programming.",
+      details: "Began undergraduate studies at IIIT Sricity with a focus on computer science fundamentals, algorithms, and software development. Actively participating in competitive programming and building practical projects.",
       icon: "fas fa-graduation-cap",
       category: "education" as const,
-      skills: ["Creative Technology", "Environmental Design", "Digital Art", "Research", "Academic Writing"],
-      impact: "• Summa Cum Laude honors\n• Outstanding Thesis Award\n• Teaching Assistant for 3 courses\n• Published 2 research papers",
+      skills: ["Computer Science", "Programming", "Algorithms", "Software Development"],
+      impact: "• Currently in 3rd year of BTech\n• Strong academic foundation\n• Active in competitive programming\n• Building industry-relevant skills",
       links: [
-        { label: "Thesis Abstract", url: "https://utexas.edu/thesis/interactive-environmental-media" }
+        { label: "IIIT Sricity", url: "https://www.iiits.ac.in/" }
       ]
     }
   ];
@@ -141,11 +85,11 @@ export default function AchievementsSection() {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-4" data-testid="heading-achievements">
-            Career Timeline & Achievements
+            Academic Journey & Professional Milestones
           </h2>
           <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto">
-            Explore my professional journey through major milestones, achievements, and impactful projects. 
-            Click on any milestone to dive deeper into the details and impact.
+            Explore my academic and professional journey through key milestones, achievements, and experiences. 
+            From competitive exams to internships and current roles in the tech industry.
           </p>
           
           <InteractiveTimeline events={timelineEvents} />
@@ -154,27 +98,27 @@ export default function AchievementsSection() {
           <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-6 bg-card/50 backdrop-blur-sm border border-border rounded-2xl p-8">
             <div className="text-center">
               <div className="text-3xl font-bold text-primary mb-2" data-testid="stat-awards">
-                8+
+                5
               </div>
-              <div className="text-sm text-muted-foreground">Awards & Recognition</div>
+              <div className="text-sm text-muted-foreground">Key Achievements</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-accent mb-2" data-testid="stat-projects">
-                15+
+                2
               </div>
-              <div className="text-sm text-muted-foreground">Major Projects</div>
+              <div className="text-sm text-muted-foreground">GitHub Projects</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-primary mb-2" data-testid="stat-contributions">
-                1.2K+
+                25+
               </div>
-              <div className="text-sm text-muted-foreground">GitHub Stars</div>
+              <div className="text-sm text-muted-foreground">Articles Written</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-accent mb-2" data-testid="stat-users">
-                100K+
+                50K+
               </div>
-              <div className="text-sm text-muted-foreground">Users Impacted</div>
+              <div className="text-sm text-muted-foreground">Students Helped</div>
             </div>
           </div>
         </div>

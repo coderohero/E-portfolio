@@ -1,31 +1,22 @@
 export default function ExperienceSection() {
   const experiences = [
     {
-      period: "2022 - Present",
-      title: "Senior Full-Stack Developer",
-      company: "TechFlow Solutions",
-      description: "Lead development of enterprise SaaS applications serving 10k+ users. Architected microservices infrastructure and mentored junior developers.",
-      technologies: ["React", "Node.js", "AWS"],
+      period: "2024 - Present",
+      title: "Problem Setter",
+      company: "Gradient",
+      description: "Creating challenging algorithmic problems and test cases for competitive programming contests. Designing problem statements with optimal solutions and ensuring fair difficulty progression.",
+      technologies: ["C++", "Python", "Algorithms", "Problem Design"],
       color: "primary",
       alignment: "left"
     },
     {
-      period: "2020 - 2022",
-      title: "Frontend Developer",
-      company: "Digital Innovations Inc.",
-      description: "Developed responsive web applications and improved user experience metrics by 40%. Collaborated with design teams to implement pixel-perfect interfaces.",
-      technologies: ["Vue.js", "TypeScript", "Figma"],
+      period: "2023 - 2024",
+      title: "Technical Content Writer",
+      company: "GeeksforGeeks (GFG)",
+      description: "Authored comprehensive technical articles on algorithms, data structures, and programming concepts. Created educational content for competitive programming and software development topics, helping thousands of students learn effectively.",
+      technologies: ["Technical Writing", "Algorithms", "Java", "Python"],
       color: "accent",
       alignment: "right"
-    },
-    {
-      period: "2018 - 2020",
-      title: "Junior Web Developer",
-      company: "StartupLab",
-      description: "Built and maintained multiple client websites and web applications. Gained experience in full-stack development and agile methodologies.",
-      technologies: ["JavaScript", "PHP", "MySQL"],
-      color: "primary",
-      alignment: "left"
     }
   ];
 
@@ -34,7 +25,7 @@ export default function ExperienceSection() {
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-16" data-testid="heading-experience">
-            Work Experience
+            Experience & Roles
           </h2>
           
           <div className="relative">

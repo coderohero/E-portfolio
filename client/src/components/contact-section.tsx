@@ -14,11 +14,10 @@ export default function ContactSection() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4" data-testid="heading-contact">
-              Let's Create Something Amazing Together
+              Let's Connect and Build Together
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Ready to discuss your next project? I'm always excited to collaborate on innovative solutions 
-              that make a positive impact. Let's connect and explore the possibilities.
+              Ready to collaborate on exciting projects? I'm always open to discussing new opportunities in competitive programming, web development, and innovative tech solutions. Let's connect!
             </p>
           </div>
 
@@ -34,7 +33,7 @@ export default function ContactSection() {
                     </div>
                     <div>
                       <h4 className="font-medium">Email</h4>
-                      <p className="text-muted-foreground">jordan@jordanrivera.dev</p>
+                      <p className="text-muted-foreground">ponnurusaiharsha@gmail.com</p>
                     </div>
                   </div>
                   
@@ -44,7 +43,7 @@ export default function ContactSection() {
                     </div>
                     <div>
                       <h4 className="font-medium">Location</h4>
-                      <p className="text-muted-foreground">Austin, TX</p>
+                      <p className="text-muted-foreground">Sricity, AP, India</p>
                     </div>
                   </div>
                   
@@ -65,7 +64,7 @@ export default function ContactSection() {
                 <h4 className="font-medium mb-4">Connect with me</h4>
                 <div className="flex space-x-4">
                   <a 
-                    href="https://linkedin.com/in/jordanrivera" 
+                    href="https://linkedin.com/in/sai-harsha-p-2685892a4" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="w-12 h-12 bg-blue-500/10 hover:bg-blue-500/20 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110"
@@ -74,7 +73,7 @@ export default function ContactSection() {
                     <i className="fab fa-linkedin text-blue-500"></i>
                   </a>
                   <a 
-                    href="https://github.com/jordanrivera" 
+                    href="https://github.com/Harsha41-dev" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="w-12 h-12 bg-foreground/10 hover:bg-foreground/20 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110"
@@ -83,13 +82,13 @@ export default function ContactSection() {
                     <i className="fab fa-github text-foreground"></i>
                   </a>
                   <a 
-                    href="https://twitter.com/jordanrivera" 
+                    href="https://github.com/harsha-01408" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="w-12 h-12 bg-blue-400/10 hover:bg-blue-400/20 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110"
-                    data-testid="link-twitter"
+                    className="w-12 h-12 bg-foreground/10 hover:bg-foreground/20 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110"
+                    data-testid="link-github-alt"
                   >
-                    <i className="fab fa-twitter text-blue-400"></i>
+                    <i className="fab fa-github text-foreground"></i>
                   </a>
                 </div>
               </div>

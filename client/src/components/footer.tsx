@@ -4,15 +4,15 @@ export default function Footer() {
       <div className="container mx-auto px-6">
         <div className="text-center">
           <div className="text-2xl font-bold gradient-text mb-4" data-testid="footer-name">
-            Jordan Rivera
+            Ponnuru Saiharsha
           </div>
           <p className="text-muted-foreground mb-6" data-testid="footer-title">
-            Creative Technologist & Full-Stack Developer
+            Competitive Programmer & Web Developer
           </p>
           
           <div className="flex justify-center space-x-6 mb-6">
             <a 
-              href="https://linkedin.com/in/jordanrivera-dev" 
+              href="https://linkedin.com/in/sai-harsha-p-2685892a4" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -21,7 +21,7 @@ export default function Footer() {
               <i className="fab fa-linkedin text-xl"></i>
             </a>
             <a 
-              href="https://github.com/jordanrivera" 
+              href="https://github.com/Harsha41-dev" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -30,16 +30,16 @@ export default function Footer() {
               <i className="fab fa-github text-xl"></i>
             </a>
             <a 
-              href="https://twitter.com/jordan_codes" 
+              href="https://github.com/harsha-01408" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
-              data-testid="footer-twitter"
+              data-testid="footer-github-alt"
             >
-              <i className="fab fa-twitter text-xl"></i>
+              <i className="fab fa-github text-xl"></i>
             </a>
             <a 
-              href="mailto:jordan.rivera@techstudio.dev"
+              href="mailto:ponnurusaiharsha@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors"
               data-testid="footer-email"
             >
@@ -48,8 +48,8 @@ export default function Footer() {
           </div>
           
           <div className="text-sm text-muted-foreground">
-            <p data-testid="footer-copyright">&copy; 2025 Jordan Rivera. All rights reserved.</p>
-            <p className="mt-2" data-testid="footer-tagline">Built with passion and lots of coffee ☕</p>
+            <p data-testid="footer-copyright">&copy; 2025 Ponnuru Saiharsha. All rights reserved.</p>
+            <p className="mt-2" data-testid="footer-tagline">Work hard and chill 🚀</p>
           </div>
         </div>
       </div>

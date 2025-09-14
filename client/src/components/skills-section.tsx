@@ -23,36 +23,36 @@ export default function SkillsSection() {
   }, [isVisible]);
 
   const allSkills = [
-    { label: "React/Next.js", value: 95, color: "hsl(160, 75%, 50%)", category: "Frontend" },
-    { label: "Three.js/WebGL", value: 92, color: "hsl(45, 90%, 60%)", category: "3D/Graphics" },
-    { label: "TypeScript", value: 90, color: "hsl(175, 70%, 45%)", category: "Language" },
-    { label: "Node.js", value: 88, color: "hsl(35, 85%, 55%)", category: "Backend" },
-    { label: "Python", value: 85, color: "hsl(55, 85%, 65%)", category: "Language" },
-    { label: "AWS/Docker", value: 85, color: "hsl(200, 75%, 55%)", category: "DevOps" },
-    { label: "TensorFlow.js", value: 82, color: "hsl(300, 70%, 60%)", category: "AI/ML" },
-    { label: "Environmental Data", value: 87, color: "hsl(120, 60%, 50%)", category: "Domain" },
-    { label: "IoT Integration", value: 80, color: "hsl(260, 75%, 65%)", category: "Hardware" },
-    { label: "UI/UX Design", value: 88, color: "hsl(15, 80%, 55%)", category: "Design" }
+    { label: "C++", value: 90, color: "hsl(160, 75%, 50%)", category: "Language" },
+    { label: "Python", value: 85, color: "hsl(45, 90%, 60%)", category: "Language" },
+    { label: "Java", value: 80, color: "hsl(175, 70%, 45%)", category: "Language" },
+    { label: "JavaScript", value: 85, color: "hsl(35, 85%, 55%)", category: "Language" },
+    { label: "React", value: 82, color: "hsl(55, 85%, 65%)", category: "Frontend" },
+    { label: "Node.js", value: 75, color: "hsl(200, 75%, 55%)", category: "Backend" },
+    { label: "Go", value: 70, color: "hsl(300, 70%, 60%)", category: "Language" },
+    { label: "Data Structures", value: 88, color: "hsl(120, 60%, 50%)", category: "Algorithms" },
+    { label: "Algorithms", value: 87, color: "hsl(260, 75%, 65%)", category: "Algorithms" },
+    { label: "Problem Solving", value: 90, color: "hsl(15, 80%, 55%)", category: "Skills" }
   ];
 
   const skillCategories = [
     {
-      title: "Creative Technology",
-      description: "Building immersive digital experiences with cutting-edge web technologies",
-      icon: "fas fa-cube",
-      skills: ["React/Next.js", "Three.js/WebGL", "TypeScript", "UI/UX Design"]
+      title: "Competitive Programming",
+      description: "Strong foundation in algorithms, data structures, and problem-solving techniques",
+      icon: "fas fa-code",
+      skills: ["C++", "Python", "Data Structures", "Algorithms"]
     },
     {
-      title: "AI & Infrastructure", 
-      description: "Implementing intelligent systems and scalable backend solutions",
-      icon: "fas fa-brain",
-      skills: ["Node.js", "Python", "AWS/Docker", "TensorFlow.js"]
+      title: "Web Development", 
+      description: "Building modern web applications with JavaScript frameworks and backend technologies",
+      icon: "fas fa-globe",
+      skills: ["JavaScript", "React", "Node.js", "Problem Solving"]
     },
     {
-      title: "Sustainability Focus",
-      description: "Developing green tech solutions and environmental data systems",
-      icon: "fas fa-leaf", 
-      skills: ["Environmental Data", "IoT Integration"]
+      title: "Programming Languages",
+      description: "Proficient in multiple programming languages for different domains and applications",
+      icon: "fas fa-laptop-code", 
+      skills: ["Java", "Go"]
     }
   ];
 
@@ -94,9 +94,9 @@ export default function SkillsSection() {
                   </div>
                   <div className="text-center p-4 bg-card/80 rounded-lg">
                     <div className="text-2xl font-bold text-accent" data-testid="text-experience-years">
-                      {isVisible ? "6+" : "0"}
+                      {isVisible ? "3rd" : "0"}
                     </div>
-                    <div className="text-sm text-muted-foreground">Years Experience</div>
+                    <div className="text-sm text-muted-foreground">Year Student</div>
                   </div>
                 </div>
               </div>

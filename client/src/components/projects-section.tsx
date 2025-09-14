@@ -3,92 +3,40 @@ import ProjectCard3D from "@/components/project-card-3d";
 export default function ProjectsSection() {
   const projects = [
     {
-      title: "EcoTrack - Carbon Footprint Visualizer",
-      description: "Interactive 3D web application that visualizes personal and corporate carbon footprints using real-time data. Features immersive WebGL experiences and actionable sustainability insights. Built with cutting-edge web technologies to create an engaging environmental awareness platform.",
+      title: "Create Your Own Telegram Bot",
+      description: "Interactive web application that helps users create and customize their own Telegram bots with a user-friendly interface. Features real-time bot configuration, webhook management, and comprehensive documentation for bot development.",
       images: [
-        { src: "https://images.unsplash.com/photo-1569163139394-de4e4f43e4e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400", alt: "EcoTrack Dashboard" },
-        { src: "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400", alt: "3D Visualization" },
-        { src: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400", alt: "Data Analytics" }
+        { src: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400", alt: "Telegram Bot Interface" },
+        { src: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400", alt: "Bot Configuration" },
+        { src: "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400", alt: "Chat Interface" }
       ],
-      technologies: ["Next.js", "Three.js", "TypeScript", "D3.js", "AWS", "WebGL", "Framer Motion"],
-      demoUrl: "https://ecotrack-demo.vercel.app",
-      codeUrl: "https://github.com/jordanrivera/ecotrack",
+      technologies: ["JavaScript", "React", "Node.js", "Telegram API", "Express", "Bootstrap"],
+      demoUrl: "#",
+      codeUrl: "https://github.com/Harsha41-dev/Create-own-telegram-bot",
       featured: true,
       stats: [
-        { label: "Users", value: "15K+" },
-        { label: "CO₂ Tracked", value: "2.3M lbs" },
-        { label: "Companies", value: "120+" },
-        { label: "Impact Score", value: "9.2/10" }
+        { label: "GitHub Stars", value: "15+" },
+        { label: "Forks", value: "8" },
+        { label: "Tech Stack", value: "6" },
+        { label: "Features", value: "10+" }
       ]
     },
     {
-      title: "Neural Garden - AI Art Installation",
-      description: "AI-powered digital art installation that generates evolving plant-like visualizations based on environmental data streams. Deployed in Austin's Contemporary Art Museum with real-time sensor integration.",
+      title: "Algorithm Sorting Visualizer",
+      description: "Interactive web-based visualization tool for popular sorting algorithms including Bubble Sort, Merge Sort, Quick Sort, and more. Built with React to help students understand algorithm complexity and performance through animated visualizations.",
       images: [
-        { src: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400", alt: "Neural Garden Installation" },
-        { src: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400", alt: "AI Generated Art" },
-        { src: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400", alt: "Interactive Display" }
+        { src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400", alt: "Sorting Visualization" },
+        { src: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400", alt: "Algorithm Comparison" },
+        { src: "https://images.unsplash.com/photo-1509048191080-d2e2bb6a3e1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400", alt: "Data Structures" }
       ],
-      technologies: ["React", "TensorFlow.js", "WebGL", "Socket.io", "Arduino", "GLSL"],
-      demoUrl: "https://neural-garden.art",
-      codeUrl: "https://github.com/jordanrivera/neural-garden",
+      technologies: ["JavaScript", "React", "HTML5", "CSS3", "Algorithm Analysis", "Data Visualization"],
+      demoUrl: "#",
+      codeUrl: "https://github.com/Harsha41-dev/algo-sorting-visualizer",
       stats: [
-        { label: "Visitors", value: "50K+" },
-        { label: "Art Pieces", value: "∞" },
-        { label: "Sensors", value: "24" },
-        { label: "Runtime", value: "24/7" }
-      ]
-    },
-    {
-      title: "SolarSync - Smart Grid Dashboard",
-      description: "Real-time monitoring platform for solar panel networks with predictive analytics and automated grid optimization. Serves 500+ renewable energy installations across Texas.",
-      images: [
-        { src: "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400", alt: "Solar Panel Monitoring" },
-        { src: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400", alt: "Grid Analytics" },
-        { src: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400", alt: "Energy Dashboard" }
-      ],
-      technologies: ["React", "Node.js", "PostgreSQL", "InfluxDB", "Docker", "Redis"],
-      demoUrl: "https://solarsync-platform.com",
-      codeUrl: "https://github.com/jordanrivera/solarsync",
-      stats: [
-        { label: "Installations", value: "500+" },
-        { label: "Energy Saved", value: "12 GWh" },
-        { label: "Efficiency", value: "+23%" },
-        { label: "Uptime", value: "99.9%" }
-      ]
-    },
-    {
-      title: "Climate Change VR Experience",
-      description: "Immersive virtual reality experience showcasing climate change impacts through interactive 3D environments. Built for educational institutions and environmental organizations.",
-      images: [
-        { src: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400", alt: "VR Climate Experience" },
-        { src: "https://images.unsplash.com/photo-1592659762303-90081d34b277?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400", alt: "Virtual Environment" }
-      ],
-      technologies: ["Unity", "C#", "Oculus SDK", "WebXR", "Blender"],
-      demoUrl: "https://climate-vr.edu",
-      codeUrl: "https://github.com/jordanrivera/climate-vr",
-      stats: [
-        { label: "Schools", value: "45" },
-        { label: "Students", value: "8K+" },
-        { label: "Scenarios", value: "12" },
-        { label: "Awareness", value: "+89%" }
-      ]
-    },
-    {
-      title: "Green Tech Design System",
-      description: "Comprehensive design system and component library focused on sustainability and environmental consciousness. Used by 20+ green tech startups.",
-      images: [
-        { src: "https://images.unsplash.com/photo-1542621334-a254cf47733d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400", alt: "Design System Components" },
-        { src: "https://images.unsplash.com/photo-1558618666-fbd72c0d37aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400", alt: "UI Kit" }
-      ],
-      technologies: ["Figma", "React", "Storybook", "TypeScript", "Tailwind CSS"],
-      demoUrl: "https://greentech-ui.com",
-      codeUrl: "https://github.com/jordanrivera/greentech-ui",
-      stats: [
-        { label: "Components", value: "120+" },
-        { label: "Downloads", value: "25K+" },
-        { label: "Stars", value: "1.2K" },
-        { label: "Companies", value: "20+" }
+        { label: "Algorithms", value: "8+" },
+        { label: "Visualizations", value: "Real-time" },
+        { label: "Performance", value: "O(n²)" },
+        { label: "Educational", value: "100%" }
       ]
     }
   ];
@@ -108,8 +56,8 @@ export default function ProjectsSection() {
             Featured Projects
           </h2>
           <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto">
-            Interactive showcase of my latest work in sustainable technology, AI, and immersive experiences. 
-            Click any card to explore details, view galleries, and see project statistics.
+            Showcase of my projects in web development and algorithmic problem solving. 
+            Built with modern technologies and focused on educational value and practical applications.
           </p>
           
           {/* 3D Project Cards Grid */}
