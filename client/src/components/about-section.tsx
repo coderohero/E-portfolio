@@ -46,7 +46,7 @@ export default function AboutSection() {
                     Bachelor of Technology (BTech)
                   </h4>
                   <p className="text-primary" data-testid="text-btech-school">IIIT Sricity</p>
-                  <p className="text-muted-foreground" data-testid="text-btech-years">2022 - 2026 (3rd Year)</p>
+                  <p className="text-muted-foreground" data-testid="text-btech-years">2023 - 2027 (3rd Year)</p>
                   <p className="text-sm text-muted-foreground mt-2" data-testid="text-btech-details">
                     Focus on Computer Science, Algorithms, and Software Engineering
                   </p>
