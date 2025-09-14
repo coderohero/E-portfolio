@@ -4,7 +4,7 @@ export default function AchievementsSection() {
   const timelineEvents = [
     {
       id: "problem-setter-2024",
-      date: "2024 - Present",
+      date: "2025 - Present",
       title: "Problem Setter at Gradient",
       organization: "Gradient",
       description: "Currently working as a Problem Setter, designing challenging algorithmic problems and test cases for competitive programming contests.",
@@ -17,7 +17,7 @@ export default function AchievementsSection() {
     },
     {
       id: "gfg-internship-2023",
-      date: "2023 - 2024",
+      date: "2024 - 2025",
       title: "Technical Content Writer Internship",
       organization: "GeeksforGeeks (GFG)",
       description: "Worked as a Technical Content Writer, creating educational articles on algorithms, data structures, and programming concepts.",
